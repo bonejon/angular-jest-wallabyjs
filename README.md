@@ -1,5 +1,7 @@
 # An Example Project to Incorporate Jest and WallabyJS with Angular CLI
 
+[![Build Status](https://travis-ci.com/bonejon/angular-jest-wallabyjs.svg?branch=master)](https://travis-ci.com/bonejon/angular-jest-wallabyjs)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 
