@@ -7,26 +7,26 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1 - Remove the following entries from devDependencies in package.json
 ```json
-"@types/jasmine": "~2.8.8",
-"@types/jasminewd2": "~2.0.3",
-"jasmine-core": "~2.99.1",
-"jasmine-spec-reporter": "~4.2.1",
-"karma": "~4.0.0",
-"karma-chrome-launcher": "~2.2.0",
-"karma-coverage-istanbul-reporter": "~2.0.1",
-"karma-jasmine": "~1.1.2",
-"karma-jasmine-html-reporter": "^0.2.2",
-"protractor": "~5.4.0",
+"@types/jasmine": "???",
+"@types/jasminewd2": "???",
+"jasmine-core": "~???",
+"jasmine-spec-reporter": "???",
+"karma": "???",
+"karma-chrome-launcher": "???",
+"karma-coverage-istanbul-reporter": "???",
+"karma-jasmine": "???",
+"karma-jasmine-html-reporter": "???",
+"protractor": "???",
 ```
 
 2 - Add the following entries to devDependencies in package.json
 ```json
-"@angular-builders/jest": "^7.4.1",
+"@angular-builders/jest": "^8.0.3",
 "@types/jest": "^24.0.11",
-"jest": "^24.5.0",
+"jest": "^24.8.0",
 "jest-html-reporter": "2.5.0",
-"jest-preset-angular": "^7.0.1",
-"wallaby-webpack": "^3.9.14"
+"jest-preset-angular": "^7.1.1",
+"wallaby-webpack": "^3.9.15"
 ```
 
 3 - Optionally, add the following to devDependencies in package.json if the project uses ngrx
@@ -48,7 +48,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ```json
 setupJest.ts
 wallaby.js
-src/jest.config.js
+jest.config.js
 ```
 
 6 - Edit /src/tsconfig.spec.json and make the following amendments
