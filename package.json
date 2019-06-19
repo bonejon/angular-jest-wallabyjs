@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng lint && ng test wallaby-jest-angular --coverage --watch=false && ng build",
     "test": "ng test wallaby-jest-angular --coverage --watch=false",
     "test:update": "ng test wallaby-jest-angular --coverage --watch=false -u",
     "test:watch": "ng test wallaby-jest-angular --watch --coverage",
